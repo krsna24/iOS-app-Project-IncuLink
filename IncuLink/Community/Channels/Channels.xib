@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="XM7-gd-dMu" customClass="CommunityChannelsCollectionViewCell" customModule="IncuLink" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="360" height="90"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="xub-eK-2gA">
+                <rect key="frame" x="0.0" y="0.0" width="360" height="90"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Channel1" translatesAutoresizingMaskIntoConstraints="NO" id="zHD-fJ-JbC">
+                        <rect key="frame" x="16" y="20" width="50" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="zHD-fJ-JbC" secondAttribute="height" multiplier="119:62" constant="-45.967741935483872" id="srX-ZJ-DZ4"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1wJ-Kr-b79">
+                        <rect key="frame" x="74" y="0.0" width="213" height="90"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8b7-3M-p4Z">
+                        <rect key="frame" x="295" y="31" width="49" height="28"/>
+                        <state key="normal" title="Button"/>
+                        <buttonConfiguration key="configuration" style="tinted" title="Join" buttonSize="small">
+                            <color key="baseForegroundColor" red="0.22352941179999999" green="0.46274509800000002" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <color key="baseBackgroundColor" red="0.22352941179999999" green="0.46126770969999997" blue="0.34934157129999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </buttonConfiguration>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="8b7-3M-p4Z" secondAttribute="bottom" constant="31" id="5Qa-p7-N1y"/>
+                    <constraint firstAttribute="bottom" secondItem="zHD-fJ-JbC" secondAttribute="bottom" constant="20" id="9ak-V4-bMw"/>
+                    <constraint firstItem="8b7-3M-p4Z" firstAttribute="top" secondItem="xub-eK-2gA" secondAttribute="top" constant="31" id="SLJ-hz-ygr"/>
+                    <constraint firstItem="zHD-fJ-JbC" firstAttribute="leading" secondItem="xub-eK-2gA" secondAttribute="leading" constant="16" id="agX-U6-BJA"/>
+                    <constraint firstItem="zHD-fJ-JbC" firstAttribute="top" secondItem="xub-eK-2gA" secondAttribute="top" constant="20" id="cWp-pi-kdv"/>
+                    <constraint firstAttribute="trailing" secondItem="8b7-3M-p4Z" secondAttribute="trailing" constant="16" id="hNQ-eV-fTW"/>
+                </constraints>
+            </collectionViewCellContentView>
+            <connections>
+                <outlet property="channelContentView" destination="xub-eK-2gA" id="vXh-LW-bll"/>
+                <outlet property="channelJoinButton" destination="8b7-3M-p4Z" id="k77-b7-Tq0"/>
+                <outlet property="channelLogoImageView" destination="zHD-fJ-JbC" id="8Kg-T2-klj"/>
+                <outlet property="channelNameLabel" destination="1wJ-Kr-b79" id="LHx-3P-vet"/>
+            </connections>
+            <point key="canvasLocation" x="88.549618320610676" y="3.5211267605633805"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="Channel1" width="512" height="512"/>
+    </resources>
+</document>
