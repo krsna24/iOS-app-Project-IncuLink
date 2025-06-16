@@ -1,0 +1,68 @@
+# 📱 IncuLink – iOS App for Connecting Startups with Incubation Centres
+
+IncuLink is an innovative iOS application built using **SwiftUI** and **UIKit**, developed as part of a brainstorming-based training project. The app is designed to create a collaborative digital bridge between **early-stage startups** and **incubation centers**, helping founders discover, connect, and grow their ventures through incubation support.
+
+> 🚀 _Developed during iOS Developer Training using Swift & Apple development best practices._
+
+---
+
+## 📌 Features
+
+- ✅ **Startup Onboarding** – Register and create detailed startup profiles.
+- ✅ **Incubation Centre Listing** – Browse verified incubators with support details.
+- ✅ **Smart Matchmaking** – Find relevant incubators based on startup domain.
+- ✅ **Real-Time Request System** – Send and manage collaboration/invitation requests.
+- ✅ **Smooth UI/UX** – Native iOS feel built with a blend of SwiftUI and UIKit.
+- ✅ **Login/Signup Flow** – Secure and intuitive onboarding experience.
+
+---
+
+## 🧠 Project Objective
+
+The aim was to address the **lack of centralized access to incubation support** in India and globally by leveraging a user-centric mobile platform. The idea stemmed from a team brainstorming activity focused on **real-world problem-solving using digital solutions**.
+
+---
+
+## 🏗️ Tech Stack
+
+| Component          | Technology        |
+|-------------------|-------------------|
+| Language           | Swift             |
+| UI Framework       | SwiftUI & UIKit   |
+| State Management   | @State, @Binding  |
+| Data Handling      | Local JSON Mock (future Firebase integration planned) |
+| IDE                | Xcode             |
+| Platform           | iOS 15+           |
+
+---
+
+## 🚧 Future Improvements
+
+- Integrate Firebase or Supabase for backend & real-time data
+- Chat feature between startup and incubator
+- Admin approval workflow for incubator onboarding
+- Personalized dashboard for startups
+- Push notifications for updates
+
+---
+
+## 🤝 Contributions
+
+This project was initiated and developed by **Krsna Sharma** during the iOS developer training program.
+
+> ⚙️ Developed with a strong focus on problem-solving, design thinking, and Apple development standards.
+
+---
+
+## 🔗 Repository
+
+[👉 View the complete source code on GitHub](https://github.com/krsna24/iOS-app-Project-IncuLink.git)
+
+---
+
+## 📬 Contact
+
+For feedback, collaborations or queries:  
+📧 Email: [krsna@example.com](mailto:krsna@example.com)
+
+---
